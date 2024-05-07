@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid black;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li{
+list-style: none;
+}
+.navbar ul li a{
+text-decoration: none !important;
+color: black;
+font-size: 18px;
+text-transform: capitalize;
+transition: 0.9s;
+padding: 15px 10px;
+
+}
+.logo{
+    width: 20px;
+    
+}
+.logo img{
+width: 100px;
+height: 80px;
+border-radius: 50%;
+}
+.navbar ul li a:hover{
+    background-color: black;
+    color: white;
+}

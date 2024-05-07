@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid black;
+overflow: auto;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li{
+list-style: none;
+}
+.navbar ul li a{
+text-decoration: none !important;
+color: black;
+font-size: 18px;
+text-transform: capitalize;
+transition: 0.9s;
+padding: 15px 10px;
+
+}
+body{
+    background-color: rgb(192, 239, 223);
+}
+.logo{
+    width: 20px;
+height: 60px;
+}
+
+.navbar ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.cal{
+  width: 30%;  
+  margin: 5% 3%;
+}
+h1{
+padding: 3% 0px;
+}
+h3{
+margin: 1% 3%;
+}
+img{
+    width: 100%;
+}
+@media screen and (max-width:500px){
+    .navbar ul li a{
+    float: none;
+        display: block;
+        width: fit-content;
+    
+    }
+    section{
+        width: 320px;
+    }
+    .cal h1{
+        width: 300%;
+    }
+    .cal p{
+        width: 300%;
+        padding: 20px 0px;
+    }
+}
